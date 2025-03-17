@@ -77,9 +77,25 @@
 
 filteri
 <br>
+<style>
+  .img {
+    width: 100%;
+    height: auto;
+  }
+  .card {
+    width: 300px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+</style>
+<!-- KARTICE        ako budemo imali vrimena možemo probat napravit da se sa zagreba odma lista na pariz i tako dalje tako nes ISPOD SVAKE OD OVIH CEMO TREBAT I DODAT OPIS ZA PUTOVANJE CJENU KUPI.....-->
 
-<!-- POGLEDAJ RENSPOZIVNOS KOD NJIH .... i kakp stavt jednu do druge da se jedna ne poveca probala san par nije nis uspilo-->
-
+<div class="container" style="flex-wrap: wrap; justify-content: center; gap: 20px; padding: 20px;">
 <div style="flex-basis: auto;" class="flex flex-wrap justify-center gap-5">
 
       <div id = "Zagreb" class=" flex flex-wrap justify-center gap-5">
@@ -91,7 +107,7 @@ filteri
             </figure>
             <div class="card-body">
                
-              <h2 class="card-title">Zagreb</h2>
+              <h2 class="card-title" style="font-size:x-large">Zagreb</h2>
               <p></p>
               <div class="card-actions justify-end">
                 <a href="/GRADOVI/Zageb.html" class="btn btn-primary">Više o Zagrebu</a>
@@ -108,10 +124,10 @@ filteri
             </figure>
             <div class="card-body">
                
-              <h2 class="card-title">Pariz</h2>
+              <h2 class="card-title" style="font-size:x-large">Pariz</h2>
               <p></p>
               <div class="card-actions justify-end">
-                <button class="btn btn-primary">Više o Parizu</button>
+                <a href="/GRADOVI/Pariz.html" class="btn btn-primary">Više o Parizu</a>
               </div>
             </div>
           </div>
@@ -125,34 +141,353 @@ filteri
                 </figure>
                 <div class="card-body">
                    
-                  <h2 class="card-title">Berlin</h2>
+                  <h2 class="card-title" style="font-size:x-large">Berlin</h2>
                   <p></p>
                   <div class="card-actions justify-end">
-                    <button class="btn btn-primary">Više o Berlinu</button>
+                    <a href="/GRADOVI/Berlin.html" class="btn btn-primary">Više o Berlinu</a>
                   </div>
                 </div>
               </div>
 
-                <div id = "Egipat" class=" flex flex-wrap justify-center gap-5">
+                <div id = "Kairo" class=" flex flex-wrap justify-center gap-5">
                   <div class="card bg-base-100 w-100 image-full w-96 shadow-sm" style="margin-top: 20px; margin-left: 20px; margin-bottom: 20px; margin-right: 20px;">
                       <figure>
                          <img          
                           src="https://www.mondotravel.hr/assets/images/7a/7af9e2_Depositphotos_1519310_xl-2015.jpg"
-                          alt="Egipat"  style="width: 100%; height: auto;" />
+                          alt="Kairo"  style="width: 100%; height: auto;" />
                       </figure>
                       <div class="card-body">
                          
-                        <h2 class="card-title">Egipat</h2>
+                        <h2 class="card-title" style="font-size:x-large">Kairo</h2>
                         <p></p>
                         <div class="card-actions justify-end">
-                          <button class="btn btn-primary">>Više o Egiptu</button>
+                          <a href="/GRADOVI/Kairo.html" class="btn btn-primary">Više o Kairou</a>
                         </div>
                       </div>
                     </div>
 
+                    
+                <div id = "Mbabane" class=" flex flex-wrap justify-center gap-5">
+                  <div class="card bg-base-100 w-100 image-full w-96 shadow-sm" style="margin-top: 20px; margin-left: 20px; margin-bottom: 20px; margin-right: 20px;">
+                      <figure>
+                         <img          
+                          src="https://upload.wikimedia.org/wikipedia/commons/9/94/Mbabane_-_City_overview.jpg"
+                          alt="Mbabane"  style="width: 100%; height: auto;" />
+                      </figure>
+                      <div class="card-body">
+                         
+                        <h2 class="card-title" style="font-size:x-large">Mbabane</h2>
+                        <p></p>
+                        <div class="card-actions justify-end">
+                          <a href="/GRADOVI/Mbabaneu.html" class="btn btn-primary">Više o Mbabaneu</a>
+                        </div>
+                      </div>
+                    </div>
+
+                    
+                <div id = "Georgetown" class=" flex flex-wrap justify-center gap-5">
+                  <div class="card bg-base-100 w-100 image-full w-96 shadow-sm" style="margin-top: 20px; margin-left: 20px; margin-bottom: 20px; margin-right: 20px;">
+                      <figure>
+                         <img          
+                          src="https://washington.org/sites/default/files/2021-05/Cover_image_Sam_Kittner.jpg"
+                          alt="Georgetown"  style="width: 100%; height: auto;" />
+                      </figure>
+                      <div class="card-body">
+                         
+                        <h2 class="card-title" style="font-size:x-large">Georgetown</h2>
+                        <p></p>
+                        <div class="card-actions justify-end">
+                          <a href="/GRADOVI/Georgetown.html "class="btn btn-primary">Više o Georgetownu</a>
+                        </div>
+                      </div>
+                    </div>
+
+                    
+                <div id = "São Tomé" class=" flex flex-wrap justify-center gap-5">
+                  <div class="card bg-base-100 w-100 image-full w-96 shadow-sm" style="margin-top: 20px; margin-left: 20px; margin-bottom: 20px; margin-right: 20px;">
+                      <figure>
+                         <img          
+                          src="https://www.trotop.be/wp-content/uploads/2021/05/Cover.jpg"
+                          alt="São Tomé"  style="width: 100%; height: auto;" />
+                      </figure>
+                      <div class="card-body">
+                         
+                        <h2 class="card-title" style="font-size:x-large">São Tomé</h2>
+                        <p></p>
+                        <div class="card-actions justify-end">
+                          <a href="/GRADOVI/Sao Tome.html" class="btn btn-primary">Više o São Toméu</a>
+                        </div>
+                      </div>
+                    </div>
+
+                    
+                <div id = "Ciudad de Panamá" class=" flex flex-wrap justify-center gap-5">
+                  <div class="card bg-base-100 w-100 image-full w-96 shadow-sm" style="margin-top: 20px; margin-left: 20px; margin-bottom: 20px; margin-right: 20px;">
+                      <figure>
+                         <img          
+                          src="https://www.visitcentroamerica.com/wp-content/uploads/2017/09/ver-centroamerica-panama-ciudad-01.jpg"
+                          alt="Ciudad de Panamá"  style="width: 100%; height: auto;" />
+                      </figure>
+                      <div class="card-body">
+                         
+                        <h2 class="card-title" style="font-size:x-large">Ciudad de Panamá</h2>
+                        <p></p>
+                        <div class="card-actions justify-end">
+                          <a href="/GRADOVI/Ciudad de panama.html" class="btn btn-primary">Više o Ciudad de Panamáu</a>
+                        </div>
+                      </div>
+                    </div>
+
+                    
+                <div id = "Sarajevo" class=" flex flex-wrap justify-center gap-5">
+                  <div class="card bg-base-100 w-100 image-full w-96 shadow-sm" style="margin-top: 20px; margin-left: 20px; margin-bottom: 20px; margin-right: 20px;">
+                      <figure>
+                         <img          
+                          src="https://cdn.getyourguide.com/img/tour/62f26567bc21d.jpeg/98.jpg"
+                          alt="Sarajevo"  style="width: 100%; height: auto;" />
+                      </figure>
+                      <div class="card-body">
+                         
+                        <h2 class="card-title" style="font-size:x-large">Sarajevo</h2>
+                        <p></p>
+                        <div class="card-actions justify-end">
+                          <a href="/GRADOVI/Sarajevo.html" class="btn btn-primary">Više o Sarajevu</a>
+                        </div>
+                      </div>
+                    </div>
+
+                    
+                <div id = "Valletta" class=" flex flex-wrap justify-center gap-5">
+                  <div class="card bg-base-100 w-100 image-full w-96 shadow-sm" style="margin-top: 20px; margin-left: 20px; margin-bottom: 20px; margin-right: 20px;">
+                      <figure>
+                         <img          
+                          src="https://upload.wikimedia.org/wikipedia/commons/c/c7/St_Sebastian_Curtain.jpg"
+                          alt="Valletta"  style="width: 100%; height: auto;" />
+                      </figure>
+                      <div class="card-body">
+                         
+                        <h2 class="card-title" style="font-size:x-large">Valletta</h2>
+                        <p></p>
+                        <div class="card-actions justify-end">
+                          <a href="/GRADOVI/Valletta.html" class="btn btn-primary">Više o Valletti</a>
+                        </div>
+                      </div>
+                    </div>
+
+                    
+                <div id = "Beograd" class=" flex flex-wrap justify-center gap-5">
+                  <div class="card bg-base-100 w-100 image-full w-96 shadow-sm" style="margin-top: 20px; margin-left: 20px; margin-bottom: 20px; margin-right: 20px;">
+                      <figure>
+                         <img          
+                          src="https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcTdCVaPlG4dFrmi53T_-U_BzPCIBM1YEqWTrDysZchgmoG9J4ELXeFs6BqeNIzh9h14CfvmC5kVeRKWaX2HvYnwqhxbEbS-_aFdZqkNpw"
+                          alt="Beograd"  style="width: 100%; height: auto;" />
+                      </figure>
+                      <div class="card-body">
+                         
+                        <h2 class="card-title" style="font-size:x-large">Beograd</h2>
+                        <p></p>
+                        <div class="card-actions justify-end">
+                          <a href="/GRADOVI/Beograd.html"class="btn btn-primary">Više o Beogradu</a>
+                        </div>
+                      </div>
+                    </div>
+
+                    
+                <div id = "Prag" class=" flex flex-wrap justify-center gap-5">
+                  <div class="card bg-base-100 w-100 image-full w-96 shadow-sm" style="margin-top: 20px; margin-left: 20px; margin-bottom: 20px; margin-right: 20px;">
+                      <figure>
+                         <img          
+                          src="https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcQ_3-KIgWIGULTLs8Jv9-X8qeGLqCbZV95sp9qw9bLw_6kcTXJej2z2UP6WoDc23-UYTV9DfKXMzIErZmhYN9cgehs9Q_zagLN3jxCw4Q"
+                          alt="Prag"  style="width: 100%; height: auto;" />
+                      </figure>
+                      <div class="card-body">
+                         
+                        <h2 class="card-title" style="font-size:x-large">Prag</h2>
+                        <p></p>
+                        <div class="card-actions justify-end">
+                          <a href="/GRADOVI/Prag.html" class="btn btn-primary">Više o Pragu</a>
+                        </div>
+                      </div>
+                    </div>
+
+                    
+                <div id = "Tokio" class=" flex flex-wrap justify-center gap-5">
+                  <div class="card bg-base-100 w-100 image-full w-96 shadow-sm" style="margin-top: 20px; margin-left: 20px; margin-bottom: 20px; margin-right: 20px;">
+                      <figure>
+                         <img          
+                          src="https://lh4.googleusercontent.com/proxy/6h_KQFoBK4qYZ-yT-vIb_X72MtwjA_LbyqbNhP74tGMNtL-2Qgpef888bG-Bq7qUn8htshhK9VjtrTFakv_R-UmmM3l4cRtT-sVqBIBsownBS08mmEU3SaO68r0KKFn8T0NZt9mZcntq5J8fdqlHs7NxJK9ORA=w540-h312-n-k-no"
+                          alt="Tokio"  style="width: 100%; height: auto;" />
+                      </figure>
+                      <div class="card-body">
+                         
+                        <h2 class="card-title" style="font-size:x-large">Tokio</h2>
+                        <p></p>
+                        <div class="card-actions justify-end">
+                          <a href="/GRADOVI/Tokio.html" class="btn btn-primary">Više o Tokiu</a>
+                        </div>
+                      </div>
+                    </div>
+
+                    
+                <div id = "Peking" class=" flex flex-wrap justify-center gap-5">
+                  <div class="card bg-base-100 w-100 image-full w-96 shadow-sm" style="margin-top: 20px; margin-left: 20px; margin-bottom: 20px; margin-right: 20px;">
+                      <figure>
+                         <img          
+                          src="https://i0.wp.com/www.nationalreview.com/wp-content/uploads/2022/02/beijing.jpg?fit=2057%2C1200&ssl=1"
+                          alt="Peking"  style="width: 100%; height: auto;" />
+                      </figure>
+                      <div class="card-body">
+                         
+                        <h2 class="card-title" style="font-size:x-large">Peking</h2>
+                        <p></p>
+                        <div class="card-actions justify-end">
+                          <a href="/GRADOVI/Peking.html" class="btn btn-primary">Više o Pekingu</a>
+                        </div>
+                      </div>
+                    </div>
+
+                    
+                <div id = "New Delhi" class=" flex flex-wrap justify-center gap-5">
+                  <div class="card bg-base-100 w-100 image-full w-96 shadow-sm" style="margin-top: 20px; margin-left: 20px; margin-bottom: 20px; margin-right: 20px;">
+                      <figure>
+                         <img          
+                          src="https://lh5.googleusercontent.com/p/AF1QipP2fJjXnCg-pJvnwTOhCsHxyCsySJHPK9m-jPnU=w540-h312-n-k-no"
+                          alt="New Delhi"  style="width: 100%; height: auto;" />
+                      </figure>
+                      <div class="card-body">
+                         
+                        <h2 class="card-title"  style="font-size:x-large">New Delhi</h2>
+                        <p></p>
+                        <div class="card-actions justify-end">
+                          <a href="/GRADOVI/New Delhi.html"class="btn btn-primary">Više o New Delhiu</a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div id = "Bangkok" class=" flex flex-wrap justify-center gap-5">
+                      <div class="card bg-base-100 w-100 image-full w-96 shadow-sm" style="margin-top: 20px; margin-left: 20px; margin-bottom: 20px; margin-right: 20px;">
+                          <figure>
+                             <img          
+                              src="https://lh3.googleusercontent.com/gps-cs-s/AB5caB8xA8nAw5l7MQmBBMsOyMw3jckJrepBiNW-vHJcVFJLctYK-TeRskTlgEuXQLq5eWzniWRbfr33sV7toXFo5FXgKhS2iG-AB3kVgOlKTLdAvejCFRJbCTVDdsTF9fC-xEgT5Xtb=w540-h312-n-k-no"
+                              alt="Bangkok"  style="width: 100%; height: auto;" />
+                          </figure>
+                          <div class="card-body">
+                             
+                            <h2 class="card-title"  style="font-size:x-large">Bangkok</h2>
+                            <p></p>
+                            <div class="card-actions justify-end">
+                              <a href="/GRADOVI/Bangkok.html" class="btn btn-primary">Više o Bangkoku</a>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div id = "Kuala Lumpur" class=" flex flex-wrap justify-center gap-5">
+                          <div class="card bg-base-100 w-100 image-full w-96 shadow-sm" style="margin-top: 20px; margin-left: 20px; margin-bottom: 20px; margin-right: 20px;">
+                              <figure>
+                                 <img          
+                                  src="https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcRkI5RIV7H6zgmDfwiGi9nf8uEdpTOxgRL5VhTBFhw1HLLH7lyTnAHTNhgDSYMK0TXTYvsK3FluYzQ70u1dkHGzFtrZ7ssCpb9LFtqdzg"
+                                  alt="Kuala Lumpur"  style="width: 100%; height: auto;" />
+                              </figure>
+                              <div class="card-body">
+                                 
+                                <h2 class="card-title"  style="font-size:x-large">Kuala Lumpur</h2>
+                                <p></p>
+                                <div class="card-actions justify-end">
+                                  <a href="/GRADOVI/Kuala Lumpur.html" class="btn btn-primary">Više o Kuala Lumpuru</a>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div id = "Brasília" class=" flex flex-wrap justify-center gap-5">
+                              <div class="card bg-base-100 w-100 image-full w-96 shadow-sm" style="margin-top: 20px; margin-left: 20px; margin-bottom: 20px; margin-right: 20px;">
+                                  <figure>
+                                     <img          
+                                      src="https://lh5.googleusercontent.com/p/AF1QipPi0dm77fPgjo9UpAVFGODA4MVt09JWlSrfiE8g=w540-h312-n-k-no"
+                                      alt="Brasília"  style="width: 100%; height: auto;" />
+                                  </figure>
+                                  <div class="card-body">
+                                     
+                                    <h2 class="card-title"  style="font-size:x-large">Brasília</h2>
+                                    <p></p>
+                                    <div class="card-actions justify-end">
+                                      <a href="/GRADOVI/Brasília.html" class="btn btn-primary">Više o Brasíliu</a>
+                                    </div>
+                                  </div>
+                                </div>
+
+                                <div id = "Buenos Aires" class=" flex flex-wrap justify-center gap-5">
+                                  <div class="card bg-base-100 w-100 image-full w-96 shadow-sm" style="margin-top: 20px; margin-left: 20px; margin-bottom: 20px; margin-right: 20px;">
+                                      <figure>
+                                         <img          
+                                          src="https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcSDM5pi_B_RnqPV3AX9xMMCa54f2YzJ1p0plUILX1d6GvYFtxOEofYbL3Y_3jDQVnBNJeYcUdiURPUncg6o0FW6_Yfz7MkDfyUtbfXZ7Q"
+                                          alt="Buenos Aires"  style="width: 100%; height: auto;" />
+                                      </figure>
+                                      <div class="card-body">
+                                         
+                                        <h2 class="card-title"  style="font-size:x-large">Buenos Aires</h2>
+                                        <p></p>
+                                        <div class="card-actions justify-end">
+                                          <a href="/GRADOVI/Buenos Aires.html" class="btn btn-primary">Više o Buenos Airesu</a>
+                                        </div>
+                                      </div>
+                                    </div>
+
+                                    <div id = "Santiago" class=" flex flex-wrap justify-center gap-5">
+                                      <div class="card bg-base-100 w-100 image-full w-96 shadow-sm" style="margin-top: 20px; margin-left: 20px; margin-bottom: 20px; margin-right: 20px;">
+                                          <figure>
+                                             <img          
+                                              src="https://ichef.bbci.co.uk/images/ic/480xn/p02lvk6h.jpg.webp"
+                                              alt="Santiago"  style="width: 100%; height: auto;" />
+                                          </figure>
+                                          <div class="card-body">
+                                             
+                                            <h2 class="card-title"  style="font-size:x-large">Santiago</h2>
+                                            <p></p>
+                                            <div class="card-actions justify-end">
+                                              <a href="/GRADOVI/Santiago.html" class="btn btn-primary">Više o Santiagou</a>
+                                            </div>
+                                          </div>
+                                        </div>
+
+                                        <div id = "Lima" class=" flex flex-wrap justify-center gap-5">
+                                          <div class="card bg-base-100 w-100 image-full w-96 shadow-sm" style="margin-top: 20px; margin-left: 20px; margin-bottom: 20px; margin-right: 20px;">
+                                              <figure>
+                                                 <img          
+                                                  src="https://lh5.googleusercontent.com/p/AF1QipOCsO8eAX9SOD-s2CHct_ebmWzYoEHbCw04jpQC=w540-h312-n-k-no"
+                                                  alt="Lima"  style="width: 100%; height: auto;" />
+                                              </figure>
+                                              <div class="card-body">
+                                                 
+                                                <h2 class="card-title"  style="font-size:x-large">Lima</h2>
+                                                <p></p>
+                                                <div class="card-actions justify-end">
+                                                  <a href="/GRADOVI/Lima.html" class="btn btn-primary">Više o Limu</a>
+                                                </div>
+                                              </div>
+                                            </div>
+
+                                            <div id = "Quito" class=" flex flex-wrap justify-center gap-5">
+                                              <div class="card bg-base-100 w-100 image-full w-96 shadow-sm" style="margin-top: 20px; margin-left: 20px; margin-bottom: 20px; margin-right: 20px;">
+                                                  <figure>
+                                                     <img          
+                                                      src="https://lh3.googleusercontent.com/gps-cs-s/AB5caB9mWkxDE6f1J5K-aKo-DaJYR6Uu0EU0j1XTEWzkAEHKteEILfTFX4bISHerJF6OaxYjLGpod9cjZE3qypJB-YT5fNvJZQO0-nAR2cMRvA0eoLXfQ1mVGdG8K_SUTSxNmv8SJaOvFQ=w540-h312-n-k-no"
+                                                      alt="Quito"  style="width: 100%; height: auto;" />
+                                                  </figure>
+                                                  <div class="card-body">
+                                                     
+                                                    <h2 class="card-title"  style="font-size:x-large">Quito</h2>
+                                                    <p></p>
+                                                    <div class="card-actions justify-end">
+                                                      <a href="/GRADOVI/Quito.html" class="btn btn-primary">>Više o Quitou</a>
+                                                    </div>
+                                                  </div>
+                                                </div>
+
+
+
     </div>
 
-
+  </div>
 
 
 
