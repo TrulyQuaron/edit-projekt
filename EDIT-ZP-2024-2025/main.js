@@ -22,3 +22,8 @@ const gradovi = [
     { id: "Valletta", kotinent: "E"},
     { id: "Zagreb", kotinent: "E"},
 ];
+// Canberra
+// Oslo
+// Nairobi
+// Adis Abeba
+// Manila
